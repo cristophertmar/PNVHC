@@ -1,0 +1,365 @@
+<div class="main-content">
+
+    <form autocomplete="off">
+        <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 10px; width: 100%;">
+            <div class="row">
+                <div class="col-md-1" style="text-align: right; margin-right: -20px;">
+                    <button class="btn-block" mat-stroked-button>Iniciar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="card" style="padding-left:20px; padding-right: 20px; padding-bottom: 13px;">
+                        <div class="header">
+                            <h4 class="title">Eliminación de Fluidos <small>(Checklist)</small></h4>
+                        </div>
+                        <div class="content">
+
+                            <div style="margin-top: 20px;" class="row">
+                                <div class="col-md-12">
+                                    <mat-checkbox color="primary" class="example-margin">Se retiró batería y depósito de combustible</mat-checkbox>
+                                </div>
+                                <div>
+                                    <div class="col-md-12">
+                                        <mat-checkbox color="primary" class="example-margin">Se retiraron los componentes potencialmente explosivos</mat-checkbox>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-12">
+                                        <mat-checkbox color="warn" class="example-margin">Se retiraron todos los fluidos del vehículo</mat-checkbox>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-12">
+                                        <mat-checkbox color="warn" class="example-margin">Se retiraron todos los componentes en los que se haya identificado contenido de mercurio, <br> compuestos orgánicos persistentes, así como otros compuestos peligrosos, en estado puro o compuesto</mat-checkbox>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding-left:20px; padding-right: 20px;">
+                        <div class="header">
+                            <h4 class="title">Componentes retirados del vehículo en calidad de residuos destinados a su valorización: </h4>
+                        </div>
+                        <div class="content">
+                            <mat-form-field appearance="outline" class="w100p">
+                                <textarea rows="15" matInput placeholder="Redactar componentes..."></textarea>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="padding:10px">
+                        <div class="header">
+                            <table class="table table-sm table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center bg-vehiculo" colspan="2" scope="col">
+                                            Datos del Vehículo
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Placa</th>
+                                        <td>AEF-717</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nº Chasis</th>
+                                        <td>ADR12345</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nº Motor</th>
+                                        <td>ADR12345</td>
+                                    </tr>
+                                    <tr>
+                                        <th>VIN</th>
+                                        <td>ADR12345</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Categoría</th>
+                                        <td>Sedan</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Marca</th>
+                                        <td>Toyota</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Modelo</th>
+                                        <td>Yaris 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Año</th>
+                                        <td>2015</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Combustible</th>
+                                        <td>Gasolina</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pesaje vehículo</th>
+                                        <td>125Kg</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kilogramos</th>
+                                        <td>128Kg</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div style="width: 100%; text-align: right; padding-right: 20px; padding-left: 20px; margin-top: 15px;">
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-2" style="margin-right: -20px;">
+                    <button class="btn-block" mat-stroked-button color="warn">Cancelar</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn-block" mat-raised-button color="warn">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+<div class="main-content" style="display: none;">
+
+    <form autocomplete="off">
+        <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 10px; width: 100%;">
+            <div class="row">
+                <div class="col-md-1" style="text-align: right; margin-right: -20px;">
+                    <button class="btn-block" mat-stroked-button>Iniciar</button>
+                </div>
+                <!-- <div class="col-md-1" style="text-align: right;">
+                    <button class="btn-block" mat-raised-button>Observar</button>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card" style="padding-left:20px; padding-right: 20px;">
+                        <div class="header">
+                            <h4 class="title">Datos del Vehículo</h4>
+                        </div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Placa del vehículo</mat-label>
+                                        <input type="text" matInput>
+                                    </mat-form-field>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Nº Chasís</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Nº Motor</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>VIN</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Modelo</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Marca</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Categoría</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding-left:20px; padding-right: 20px;">
+                        <div class="header">
+                            <h4 class="title">Datos del Solicitante</h4>
+                        </div>
+                        <div class="content">
+                            <div style="margin-top: 20px;" class="row">
+                                <div class="col-md-3">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Tipo de documento</mat-label>
+                                        <input type="text" matInput>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-3">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Nº Documento</mat-label>
+                                        <input type="text" matInput>
+                                    </mat-form-field>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>E-mail</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-3">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Teléfono</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-6">
+                                        <mat-form-field appearance="outline" class="w100p">
+                                            <mat-label>Nombre Completo</mat-label>
+                                            <input type="text" matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding-left:20px; padding-right: 20px;">
+                        <div class="header">
+                            <h4 class="title">Eliminación de Fluidos</h4>
+                        </div>
+                        <div class="content">
+
+                            <div style="margin-top: 20px;" class="row">
+                                <div class="col-md-12">
+                                    <mat-checkbox color="warn" class="example-margin">Se retiró batería y depósito de combustible</mat-checkbox>
+                                </div>
+                                <div>
+                                    <div class="col-md-12">
+                                        <mat-checkbox color="warn" class="example-margin">Se retiraron los componentes potencialmente explosivos</mat-checkbox>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-12">
+                                        <mat-checkbox color="warn" class="example-margin">Se retiraron todos los fluidos del vehículo</mat-checkbox>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">Registros Fotográficos</h4>
+                        </div>
+                        <div style="padding-right: 40px; padding-left: 40px;" class="content">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Fecha Incial</mat-label>
+                                        <input type="date" matInput>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Fecha Final</mat-label>
+                                        <input type="date" matInput>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Hora Incial</mat-label>
+                                        <input type="text" matInput>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6">
+                                    <mat-form-field appearance="outline" class="w100p">
+                                        <mat-label>Hora Final</mat-label>
+                                        <input type="text" matInput>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label style="line-height:3;" class="col-sm-2 col-form-label">Foto.&nbsp;Ini</label>
+                                <div class="col-sm-10">
+                                    <input type="file" class="form-control">
+                                    <small>Peso máximo 200kb</small>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label style="line-height:3;" class="col-sm-2 col-form-label">Foto.&nbsp;Fin</label>
+                                <div class="col-sm-10">
+                                    <input type="file" class="form-control">
+                                    <small>Peso máximo 200kb</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div style="width: 100%; text-align: right; padding-right: 20px; padding-left: 20px; margin-bottom: 20px; margin-top: 20px;">
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-2" style="margin-right: -20px;">
+                    <button class="btn-block" mat-stroked-button color="warn">Cancelar</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn-block" mat-raised-button color="warn">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
